@@ -25,7 +25,7 @@ const { showSimpleActionSheet } = lazyDestructure(() => findByProps("showSimpleA
 const { openAlert } = lazyDestructure(() => findByProps("openAlert", "dismissAlert"));
 const { AlertModal, AlertActionButton } = lazyDestructure(() => findByProps("AlertModal", "AlertActions"));
 
-const RDT_EMBED_LINK = "https://github.com/revenge-mod/react-devtools-core/releases/latest/download/index.bundle";
+const RDT_EMBED_LINK = "https://github.com/involvexcord/react-devtools-core/releases/latest/download/index.bundle";
 
 const useStyles = createStyles({
     leadingText: {
@@ -98,7 +98,7 @@ export default function Developer() {
                                 defaultValue={loaderConfig.customLoadUrl.url}
                                 size="md"
                                 onChange={(v: string) => loaderConfig.customLoadUrl.url = v}
-                                placeholder="http://localhost:4040/revenge.js"
+                                placeholder="http://localhost:4040/involvexcord.js"
                                 label={Strings.BUNNY_URL}
                             />} />}
                             {isReactDevToolsPreloaded() && isVendettaLoader() && <TableSwitchRow

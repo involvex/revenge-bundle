@@ -1,11 +1,11 @@
 {
-    "name": "@revenge-mod/revenge",
+    "name": "@involvexcord/involvexcord",
     "exports": {
         "types": "./dist/types/index.d.ts"
     },
     "author": {
-        "name": "Revenge Team",
-        "url": "https://github.com/revenge-mod"
+        "name": "InvolveXCord Team",
+        "url": "https://github.com/involvexcord"
     },
     "scripts": {
         "build": "node scripts/build.mjs",
@@ -51,7 +51,7 @@
         "es-toolkit": "^1.39.7",
         "fuzzysort": "^3.1.0",
         "intl-messageformat": "^10.7.16",
-        "moment": "2.22.2",
+        "moment": "2.29.4",
         "react-native-reanimated": "^3.18.0",
         "spitroast": "^1.4.4",
         "type-fest": "^4.41.0"

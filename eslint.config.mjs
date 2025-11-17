@@ -1,8 +1,8 @@
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
+import tsParser from "@typescript-eslint/parser";
+import importAlias from "eslint-plugin-import-alias";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import unusedImports from "eslint-plugin-unused-imports";
-import importAlias from "eslint-plugin-import-alias";
-import tsParser from "@typescript-eslint/parser";
 
 export default [{
     ignores: ["**/dist", "**/browser"],
